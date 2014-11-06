@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find_Minimum_in_Rotated_Sorted_Array", "Find_Minimum_in_Rotated_Sorted_Array\Find_Minimum_in_Rotated_Sorted_Array.vcxproj", "{6BD16B9F-3AA7-4A70-ADD3-A832F05F51D2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find_Minimum_in_Rotated_Sorted_Array_II", "Find_Minimum_in_Rotated_Sorted_Array_II\Find_Minimum_in_Rotated_Sorted_Array_II.vcxproj", "{5A7D764E-2338-4978-B415-EEE4820C91C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximum_Product_Subarray", "Maximum_Product_Subarray\Maximum_Product_Subarray.vcxproj", "{089D6EB1-410E-44DB-B709-E682D4C3BE59}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse_Words_in_a_String", "Reverse_Words_in_a_String\Reverse_Words_in_a_String.vcxproj", "{194CE362-C194-479F-8DF9-6B49253FFEBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BD16B9F-3AA7-4A70-ADD3-A832F05F51D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BD16B9F-3AA7-4A70-ADD3-A832F05F51D2}.Debug|Win32.Build.0 = Debug|Win32
+		{6BD16B9F-3AA7-4A70-ADD3-A832F05F51D2}.Release|Win32.ActiveCfg = Release|Win32
+		{6BD16B9F-3AA7-4A70-ADD3-A832F05F51D2}.Release|Win32.Build.0 = Release|Win32
+		{5A7D764E-2338-4978-B415-EEE4820C91C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A7D764E-2338-4978-B415-EEE4820C91C7}.Debug|Win32.Build.0 = Debug|Win32
+		{5A7D764E-2338-4978-B415-EEE4820C91C7}.Release|Win32.ActiveCfg = Release|Win32
+		{5A7D764E-2338-4978-B415-EEE4820C91C7}.Release|Win32.Build.0 = Release|Win32
+		{089D6EB1-410E-44DB-B709-E682D4C3BE59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{089D6EB1-410E-44DB-B709-E682D4C3BE59}.Debug|Win32.Build.0 = Debug|Win32
+		{089D6EB1-410E-44DB-B709-E682D4C3BE59}.Release|Win32.ActiveCfg = Release|Win32
+		{089D6EB1-410E-44DB-B709-E682D4C3BE59}.Release|Win32.Build.0 = Release|Win32
+		{194CE362-C194-479F-8DF9-6B49253FFEBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{194CE362-C194-479F-8DF9-6B49253FFEBA}.Debug|Win32.Build.0 = Debug|Win32
+		{194CE362-C194-479F-8DF9-6B49253FFEBA}.Release|Win32.ActiveCfg = Release|Win32
+		{194CE362-C194-479F-8DF9-6B49253FFEBA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

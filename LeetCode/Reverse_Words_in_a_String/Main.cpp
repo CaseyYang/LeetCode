@@ -20,7 +20,7 @@ public:
 		}
 		if (start != -1){
 			strStack.push(s.substr(start, s.size() - start));
-			cout << start << " " << s.size() - start << endl;
+			//cout << start << " " << s.size() - start << endl;
 		}
 		s.clear();
 		while (!strStack.empty()){
@@ -41,6 +41,6 @@ int main(){
 	cout << s.length() << endl;
 	Solution ss;
 	ss.reverseWords(s);
-	cout << s << "#" << endl;
+	//cout << s << "#" << endl;
 	return 0;
 }

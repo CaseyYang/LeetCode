@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximum_Product_Subarray", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse_Words_in_a_String", "Reverse_Words_in_a_String\Reverse_Words_in_a_String.vcxproj", "{194CE362-C194-479F-8DF9-6B49253FFEBA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Evaluate_Reverse_Polish_Notation", "Evaluate_Reverse_Polish_Notation\Evaluate_Reverse_Polish_Notation.vcxproj", "{2BFB085D-5558-4336-A8D9-87D303DADB96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Max_Points_on_a_Line", "Max_Points_on_a_Line\Max_Points_on_a_Line.vcxproj", "{226C543B-33CC-46E9-8D0A-FEF3378ED1B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +37,14 @@ Global
 		{194CE362-C194-479F-8DF9-6B49253FFEBA}.Debug|Win32.Build.0 = Debug|Win32
 		{194CE362-C194-479F-8DF9-6B49253FFEBA}.Release|Win32.ActiveCfg = Release|Win32
 		{194CE362-C194-479F-8DF9-6B49253FFEBA}.Release|Win32.Build.0 = Release|Win32
+		{2BFB085D-5558-4336-A8D9-87D303DADB96}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2BFB085D-5558-4336-A8D9-87D303DADB96}.Debug|Win32.Build.0 = Debug|Win32
+		{2BFB085D-5558-4336-A8D9-87D303DADB96}.Release|Win32.ActiveCfg = Release|Win32
+		{2BFB085D-5558-4336-A8D9-87D303DADB96}.Release|Win32.Build.0 = Release|Win32
+		{226C543B-33CC-46E9-8D0A-FEF3378ED1B7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{226C543B-33CC-46E9-8D0A-FEF3378ED1B7}.Debug|Win32.Build.0 = Debug|Win32
+		{226C543B-33CC-46E9-8D0A-FEF3378ED1B7}.Release|Win32.ActiveCfg = Release|Win32
+		{226C543B-33CC-46E9-8D0A-FEF3378ED1B7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

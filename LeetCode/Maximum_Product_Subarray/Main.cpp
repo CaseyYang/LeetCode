@@ -1,31 +1,32 @@
 #include<iostream>
+#include<algorithm>
 using namespace std;
 
 class Solution {
 public:
 	int maxProduct(int A[], int n) {
-		bool init = true;
-		int currentMax = 1;
-		int max = INT_MIN;
+		if (n == 1) return A[0];
+		int* maxs = new int[n];
+		maxs[0] = A[0];
+		int* mins = new int[n];
+		mins[0] = A[0];
+		for (int i = 1; i < n; ++i){
+			maxs[i] = max(max(maxs[i - 1]*A[i], A[i]), mins[i - 1] * A[i]);
+			mins[i] = min(min(mins[i - 1]*A[i], A[i]), maxs[i - 1] * A[i]);
+		}
+		int ans = A[0];
 		for (int i = 0; i < n; ++i){
-			if (A[i] * currentMax > currentMax||init){
-				init = false;
-				currentMax = A[i] * currentMax;
-				if (currentMax > max){
-					max = currentMax;
-				}
-			}
-			else{
-				currentMax = A[i];
+			if (maxs[i]>ans){
+				ans = maxs[i];
 			}
 		}
-		return max;
+		return ans;
 	}
 };
 
 int main(){
 	Solution s;
-	int A[] = { -2};
-	cout << s.maxProduct(A, 1) << endl;
+	int A[] = { -2, 0, -1};
+	cout << s.maxProduct(A, 3) << endl;
 	return 0;
 }

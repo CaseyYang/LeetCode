@@ -4,7 +4,6 @@ using namespace std;
 
 class Solution {
 public:
-	Solution(){};
 	int findMin(vector<int> &num) {
 		if (num.size() > 0){
 			int start = 0;
@@ -18,7 +17,7 @@ public:
 					end = middle;
 				}
 			}
-			return num[end];
+			return num[end] < num[start] ? num[end] : num[start];
 		}
 	}
 };
@@ -26,7 +25,7 @@ public:
 int main(){
 	Solution s;
 	vector<int> v = vector<int>();
-	int i[11] = { 4, 5, 6,6, 7, 0,0, 1, 2,4,4 };
+	int i[11] = { 4, 5, 6, 6, 7, 0, 0, 1, 2, 4, 4 };
 	//int i[1] = { 4};
 	for (int j = 0; j < 11; ++j){
 		v.push_back(i[j]);

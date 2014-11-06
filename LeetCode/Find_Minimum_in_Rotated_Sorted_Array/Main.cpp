@@ -18,7 +18,7 @@ public:
 					end = middle;
 				}
 			}
-			return num[end];
+			return num[end] < num[start] ? num[end] : num[start];
 		}
 	}
 };
@@ -27,10 +27,10 @@ int main(){
 	Solution s;
 	vector<int> v = vector<int>();
 	//int i[7] = { 4, 5, 6, 7, 0, 1, 2 };
-	int i[1] = { 4};
+	int i[1] = { 4 };
 	for (int j = 0; j < 1; ++j){
 		v.push_back(i[j]);
 	}
-	cout<<s.findMin(v)<<endl;
+	cout << s.findMin(v) << endl;
 	return 0;
 }

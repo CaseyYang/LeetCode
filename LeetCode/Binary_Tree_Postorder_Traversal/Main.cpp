@@ -18,10 +18,15 @@ public:
 			return result;
 		}
 		else{
-		stack<TreeNode*> tStack = stack<TreeNode*>();
-		tStack.push(root);
-		tStack.push(root->left);
-		tStack.push(root->right);
+			stack<pair<TreeNode*, int>> tStack = stack<pair<TreeNode*, int>>();
+			TreeNode *left = root;
+			do{
+				tStack.push(make_pair(left, 0));
+				left = left->left;
+			} while (left != NULL);
+			while (!tStack.empty()){
+
+			}
 		while ()
 		}
 	}

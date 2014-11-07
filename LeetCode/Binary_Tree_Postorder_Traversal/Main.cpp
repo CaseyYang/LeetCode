@@ -25,9 +25,23 @@ public:
 				left = left->left;
 			} while (left != NULL);
 			while (!tStack.empty()){
-
+				pair<TreeNode*,int> cur = tStack.top();
+				tStack.pop();
+				if (cur.second == 0 && cur.first->right != NULL){
+					++cur.second;
+					tStack.push(cur);
+					left = cur.first->right;
+					do{
+						tStack.push(make_pair(left, 0));
+						left = left->left;
+					} while (left != NULL);
+					continue;
+				}
+				else{
+					result.push_back(cur.first->val);
+				}
 			}
-		while ()
+			return result;
 		}
 	}
 };

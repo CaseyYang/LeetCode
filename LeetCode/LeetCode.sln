@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insertion_Sort_List", "Inse
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary_Tree_Postorder_Traversal", "Binary_Tree_Postorder_Traversal\Binary_Tree_Postorder_Traversal.vcxproj", "{58E2B5E3-8FF3-434C-9D70-1D9937372470}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary_Tree_Preorder_Traversal", "Binary_Tree_Preorder_Traversal\Binary_Tree_Preorder_Traversal.vcxproj", "{82832CFE-26C4-4C6D-BAB6-9051EC3BA11E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -63,6 +65,10 @@ Global
 		{58E2B5E3-8FF3-434C-9D70-1D9937372470}.Debug|Win32.Build.0 = Debug|Win32
 		{58E2B5E3-8FF3-434C-9D70-1D9937372470}.Release|Win32.ActiveCfg = Release|Win32
 		{58E2B5E3-8FF3-434C-9D70-1D9937372470}.Release|Win32.Build.0 = Release|Win32
+		{82832CFE-26C4-4C6D-BAB6-9051EC3BA11E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82832CFE-26C4-4C6D-BAB6-9051EC3BA11E}.Debug|Win32.Build.0 = Debug|Win32
+		{82832CFE-26C4-4C6D-BAB6-9051EC3BA11E}.Release|Win32.ActiveCfg = Release|Win32
+		{82832CFE-26C4-4C6D-BAB6-9051EC3BA11E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

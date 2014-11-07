@@ -17,6 +17,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Max_Points_on_a_Line", "Max
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sort_List", "Sort_List\Sort_List.vcxproj", "{00933703-33A6-43F7-B69C-B51E23EB2C26}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insertion_Sort_List", "Insertion_Sort_List\Insertion_Sort_List.vcxproj", "{74257682-1F41-4ACC-959A-E268CA3FA558}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary_Tree_Postorder_Traversal", "Binary_Tree_Postorder_Traversal\Binary_Tree_Postorder_Traversal.vcxproj", "{58E2B5E3-8FF3-434C-9D70-1D9937372470}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -51,6 +55,14 @@ Global
 		{00933703-33A6-43F7-B69C-B51E23EB2C26}.Debug|Win32.Build.0 = Debug|Win32
 		{00933703-33A6-43F7-B69C-B51E23EB2C26}.Release|Win32.ActiveCfg = Release|Win32
 		{00933703-33A6-43F7-B69C-B51E23EB2C26}.Release|Win32.Build.0 = Release|Win32
+		{74257682-1F41-4ACC-959A-E268CA3FA558}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74257682-1F41-4ACC-959A-E268CA3FA558}.Debug|Win32.Build.0 = Debug|Win32
+		{74257682-1F41-4ACC-959A-E268CA3FA558}.Release|Win32.ActiveCfg = Release|Win32
+		{74257682-1F41-4ACC-959A-E268CA3FA558}.Release|Win32.Build.0 = Release|Win32
+		{58E2B5E3-8FF3-434C-9D70-1D9937372470}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58E2B5E3-8FF3-434C-9D70-1D9937372470}.Debug|Win32.Build.0 = Debug|Win32
+		{58E2B5E3-8FF3-434C-9D70-1D9937372470}.Release|Win32.ActiveCfg = Release|Win32
+		{58E2B5E3-8FF3-434C-9D70-1D9937372470}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

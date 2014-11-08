@@ -43,18 +43,18 @@ public:
 				}
 			}
 			result.push_back(str);
-			system("pause");
+			//system("pause");
 		}
 		else
 		{
-			/////////////////////////////////////////////这部分很难理解：从dp[0][9]~dp[9][0]检查，若dp[i][j]为true，则保存字符串进mystrings，然后从dp[0][i-1]再找（因为前后字符串不可能重叠，所以最长不可能超过i）
+			/////////////////////////////////////////////这部分很难理解：从dp[0][9]~dp[9][0]检查(这当中其实是一个上三角阵的trick，如果是方阵的话其实是dp[0][9]~dp[9][9]，这样更好理解，就是先找最后一个单词)，若dp[i][j]为true，则保存字符串进mystrings，然后从dp[0][i-1]再找（因为前后字符串不可能重叠，所以最长不可能超过i）
 			for (int k = 0; k <= i; k++)
 			{
-				cout << "k=" << k << ", i=" << i << ", i-k=" << i - k << endl;
+				//cout << "k=" << k << ", i=" << i << ", i-k=" << i - k << endl;
 				if (dp[k][i - k])
 				{
 					mystring.push_back(s.substr(k, i - k + 1));
-					cout << "k=" << k << ", i=" << i << ", " << mystring.back() << endl;
+					//cout << "k=" << k << ", i=" << i << ", " << mystring.back() << endl;
 					output(k - 1, s);
 					mystring.pop_back();
 				}
@@ -77,13 +77,21 @@ public:
 };
 
 int main(){
+	//unordered_set<string> dict = unordered_set<string>();
+	//dict.insert("cat");
+	//dict.insert("cats");
+	//dict.insert("and");
+	//dict.insert("sand");
+	//dict.insert("dog");
+	//string ss = "catsanddog";
+	//string ss = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
+	//string dictStrs[] = { "a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa" };
+	string ss = "baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+	string dictStrs[] = { "a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa" };
 	unordered_set<string> dict = unordered_set<string>();
-	dict.insert("cat");
-	dict.insert("cats");
-	dict.insert("and");
-	dict.insert("sand");
-	dict.insert("dog");
-	string ss = "catsanddog";
+	for (int i = 0; i < 10; ++i){
+		dict.insert(dictStrs[i]);
+	}
 	Solution s;
 	s.wordBreak(ss, dict);
 	return 0;

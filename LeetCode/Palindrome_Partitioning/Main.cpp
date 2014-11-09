@@ -33,7 +33,7 @@ public:
 		else{
 			int **dp = new int*[s.size()];
 			for (int i = 0; i < s.size(); ++i){
-				dp[i] = new int[i];
+				dp[i] = new int[s.size()];
 				for (int j = 0; j < s.size(); ++j){
 					dp[i][j] = 0;
 				}

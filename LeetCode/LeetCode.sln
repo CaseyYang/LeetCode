@@ -47,6 +47,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Palindrome_Partitioning_II"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Palindrome_Partitioning", "Palindrome_Partitioning\Palindrome_Partitioning.vcxproj", "{2ACC5652-9FE2-4435-B52D-6583B1F8E2D7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Surrounded_Regions", "Surrounded_Regions\Surrounded_Regions.vcxproj", "{11758390-013B-431C-BF5D-C3602A8F928F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sum_Root_to_Leaf_Numbers", "Sum_Root_to_Leaf_Numbers\Sum_Root_to_Leaf_Numbers.vcxproj", "{071FC859-C559-43A5-A815-E9DAF16DC905}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid_Palindrome", "Valid_Palindrome\Valid_Palindrome.vcxproj", "{56EA7F45-ED79-4D8B-983F-C2B3E79DCE67}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary_Tree_Maximum_Path_Sum", "Binary_Tree_Maximum_Path_Sum\Binary_Tree_Maximum_Path_Sum.vcxproj", "{F7007CCC-392E-46CB-A4FB-E872CDAA74A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -141,6 +149,22 @@ Global
 		{2ACC5652-9FE2-4435-B52D-6583B1F8E2D7}.Debug|Win32.Build.0 = Debug|Win32
 		{2ACC5652-9FE2-4435-B52D-6583B1F8E2D7}.Release|Win32.ActiveCfg = Release|Win32
 		{2ACC5652-9FE2-4435-B52D-6583B1F8E2D7}.Release|Win32.Build.0 = Release|Win32
+		{11758390-013B-431C-BF5D-C3602A8F928F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11758390-013B-431C-BF5D-C3602A8F928F}.Debug|Win32.Build.0 = Debug|Win32
+		{11758390-013B-431C-BF5D-C3602A8F928F}.Release|Win32.ActiveCfg = Release|Win32
+		{11758390-013B-431C-BF5D-C3602A8F928F}.Release|Win32.Build.0 = Release|Win32
+		{071FC859-C559-43A5-A815-E9DAF16DC905}.Debug|Win32.ActiveCfg = Debug|Win32
+		{071FC859-C559-43A5-A815-E9DAF16DC905}.Debug|Win32.Build.0 = Debug|Win32
+		{071FC859-C559-43A5-A815-E9DAF16DC905}.Release|Win32.ActiveCfg = Release|Win32
+		{071FC859-C559-43A5-A815-E9DAF16DC905}.Release|Win32.Build.0 = Release|Win32
+		{56EA7F45-ED79-4D8B-983F-C2B3E79DCE67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56EA7F45-ED79-4D8B-983F-C2B3E79DCE67}.Debug|Win32.Build.0 = Debug|Win32
+		{56EA7F45-ED79-4D8B-983F-C2B3E79DCE67}.Release|Win32.ActiveCfg = Release|Win32
+		{56EA7F45-ED79-4D8B-983F-C2B3E79DCE67}.Release|Win32.Build.0 = Release|Win32
+		{F7007CCC-392E-46CB-A4FB-E872CDAA74A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F7007CCC-392E-46CB-A4FB-E872CDAA74A7}.Debug|Win32.Build.0 = Debug|Win32
+		{F7007CCC-392E-46CB-A4FB-E872CDAA74A7}.Release|Win32.ActiveCfg = Release|Win32
+		{F7007CCC-392E-46CB-A4FB-E872CDAA74A7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

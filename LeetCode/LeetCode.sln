@@ -57,6 +57,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary_Tree_Maximum_Path_Su
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Best_Time_to_Buy_and_Sell_Stock", "Best_Time_to_Buy_and_Sell_Stock\Best_Time_to_Buy_and_Sell_Stock.vcxproj", "{D208CB10-37F9-401A-9D74-217244581948}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Best_Time_to_buy_and_Sell_Stock_II", "Best_Time_to_buy_and_Sell_Stock_II\Best_Time_to_buy_and_Sell_Stock_II.vcxproj", "{ABE8A17F-7559-43A1-974F-061F53AE26E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Best_Time_to_Buy_and_Sell_Stock_III", "Best_Time_to_Buy_and_Sell_Stock_III\Best_Time_to_Buy_and_Sell_Stock_III.vcxproj", "{30664F37-5949-4BAC-89B8-9B70CAD790A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -171,6 +175,14 @@ Global
 		{D208CB10-37F9-401A-9D74-217244581948}.Debug|Win32.Build.0 = Debug|Win32
 		{D208CB10-37F9-401A-9D74-217244581948}.Release|Win32.ActiveCfg = Release|Win32
 		{D208CB10-37F9-401A-9D74-217244581948}.Release|Win32.Build.0 = Release|Win32
+		{ABE8A17F-7559-43A1-974F-061F53AE26E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ABE8A17F-7559-43A1-974F-061F53AE26E0}.Debug|Win32.Build.0 = Debug|Win32
+		{ABE8A17F-7559-43A1-974F-061F53AE26E0}.Release|Win32.ActiveCfg = Release|Win32
+		{ABE8A17F-7559-43A1-974F-061F53AE26E0}.Release|Win32.Build.0 = Release|Win32
+		{30664F37-5949-4BAC-89B8-9B70CAD790A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30664F37-5949-4BAC-89B8-9B70CAD790A2}.Debug|Win32.Build.0 = Debug|Win32
+		{30664F37-5949-4BAC-89B8-9B70CAD790A2}.Release|Win32.ActiveCfg = Release|Win32
+		{30664F37-5949-4BAC-89B8-9B70CAD790A2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

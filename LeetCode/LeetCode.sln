@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Best_Time_to_Buy_and_Sell_S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word_Ladder", "Word_Ladder\Word_Ladder.vcxproj", "{BC8A9434-93E5-4D6D-8C36-C8A2B79F3C02}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word_Ladder_II", "Word_Ladder_II\Word_Ladder_II.vcxproj", "{C9C01CC7-134F-42F9-B017-87FD3D486CDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -189,6 +191,10 @@ Global
 		{BC8A9434-93E5-4D6D-8C36-C8A2B79F3C02}.Debug|Win32.Build.0 = Debug|Win32
 		{BC8A9434-93E5-4D6D-8C36-C8A2B79F3C02}.Release|Win32.ActiveCfg = Release|Win32
 		{BC8A9434-93E5-4D6D-8C36-C8A2B79F3C02}.Release|Win32.Build.0 = Release|Win32
+		{C9C01CC7-134F-42F9-B017-87FD3D486CDC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9C01CC7-134F-42F9-B017-87FD3D486CDC}.Debug|Win32.Build.0 = Debug|Win32
+		{C9C01CC7-134F-42F9-B017-87FD3D486CDC}.Release|Win32.ActiveCfg = Release|Win32
+		{C9C01CC7-134F-42F9-B017-87FD3D486CDC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,25 +16,22 @@ public:
 			buyDays[prices.size() - 1] = 0;
 			int *dp = new int[prices.size()];
 			dp[0] = 0;
+			int totalMax = 0;
 			for (int sellDay = 1; sellDay < prices.size(); ++sellDay){
 				sellDays[sellDay] = 0;
-				for (int i = 1; i <= sellDay; i++){
-					dp[i] = max(dp[i - 1] + prices[i] - prices[i - 1], 0);
-					sellDays[sellDay] = dp[i] > sellDays[sellDay] ? dp[i] : sellDays[sellDay];
-				}
+				dp[sellDay] = max(dp[sellDay - 1] + prices[sellDay] - prices[sellDay - 1], 0);
+				sellDays[sellDay] = dp[sellDay] > sellDays[sellDay - 1] ? dp[sellDay] : sellDays[sellDay - 1];
 			}
-			for (int buyDay = prices.size() - 1; buyDay >= 0; --buyDay){
-				for (int i = prices.size() - 1; i >= buyDay; --i){
-					dp[i] = max(dp[i + 1] + (prices[i + 1] - prices[i]), 0);
-					buyDays[buyDay] = dp[i] > buyDays[buyDay] ? dp[i] : buyDays[buyDay];
-				}
+			dp[prices.size() - 1] = 0;
+			for (int buyDay = prices.size() - 2; buyDay >= 0; --buyDay){
+				dp[buyDay] = max(dp[buyDay + 1] + (prices[buyDay + 1] - prices[buyDay]), 0);
+				buyDays[buyDay] = dp[buyDay] > buyDays[buyDay + 1] ? dp[buyDay] : buyDays[buyDay + 1];
 			}
-			int totalMax = 0;
 			for (int i = 0; i < prices.size(); ++i){
 				int cur = buyDays[i] + sellDays[i];
 				totalMax = totalMax>cur ? totalMax : cur;
 			}
-			return;
+			return totalMax;
 		}
 	}
 };

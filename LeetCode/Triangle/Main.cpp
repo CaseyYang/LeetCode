@@ -17,7 +17,7 @@ public:
 				vector<int> pre = triangle[0];
 				vector<int> cur;
 				for (int i = 1; i < triangle.size(); ++i){
-					cur = vector<int>(triangle[i].size());
+					cur = vector<int>();
 					for (int j = 0; j < triangle[i].size(); ++j){
 						if (j == 0){
 							cur.push_back(pre[j] + triangle[i][0]);
@@ -33,10 +33,11 @@ public:
 						}
 					}
 					pre = cur;
+					
 				}
-				int max = 0;
-				for (int i = 0; i < pre.size(); ++i){
-					max = pre[i]>max ? pre[i] : max;
+				int max = pre[0];
+				for (int i = 1; i < pre.size(); ++i){
+					max = pre[i] < max ? pre[i] : max;
 				}
 				return max;
 			}
@@ -45,5 +46,15 @@ public:
 };
 
 int main(){
+	vector<int> a = vector<int>();
+	a.push_back(1);
+	vector<int> b = vector<int>();
+	b.push_back(2);
+	b.push_back(3);
+	vector<vector<int>> c = vector<vector<int>>();
+	c.push_back(a);
+	c.push_back(b);
+	Solution s;
+	s.minimumTotal(c);
 	return 0;
 }

@@ -69,6 +69,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triangle", "Triangle\Triang
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest_Consecutive_Sequence", "Longest_Consecutive_Sequence\Longest_Consecutive_Sequence.vcxproj", "{E580AE2F-D00A-49C0-AB3F-15475E43F05D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Path_Sum", "Path_Sum\Path_Sum.vcxproj", "{6934BC4C-2048-4635-A132-ECD5329117B7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Path_Sum_II", "Path_Sum_II\Path_Sum_II.vcxproj", "{678CA050-298E-4A5F-807F-6C132669F279}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -207,6 +211,14 @@ Global
 		{E580AE2F-D00A-49C0-AB3F-15475E43F05D}.Debug|Win32.Build.0 = Debug|Win32
 		{E580AE2F-D00A-49C0-AB3F-15475E43F05D}.Release|Win32.ActiveCfg = Release|Win32
 		{E580AE2F-D00A-49C0-AB3F-15475E43F05D}.Release|Win32.Build.0 = Release|Win32
+		{6934BC4C-2048-4635-A132-ECD5329117B7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6934BC4C-2048-4635-A132-ECD5329117B7}.Debug|Win32.Build.0 = Debug|Win32
+		{6934BC4C-2048-4635-A132-ECD5329117B7}.Release|Win32.ActiveCfg = Release|Win32
+		{6934BC4C-2048-4635-A132-ECD5329117B7}.Release|Win32.Build.0 = Release|Win32
+		{678CA050-298E-4A5F-807F-6C132669F279}.Debug|Win32.ActiveCfg = Debug|Win32
+		{678CA050-298E-4A5F-807F-6C132669F279}.Debug|Win32.Build.0 = Debug|Win32
+		{678CA050-298E-4A5F-807F-6C132669F279}.Release|Win32.ActiveCfg = Release|Win32
+		{678CA050-298E-4A5F-807F-6C132669F279}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

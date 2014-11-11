@@ -95,6 +95,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary_Tree_Level_Order_Tra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximum_Depth_of_Binary_Tree", "Maximum_Depth_of_Binary_Tree\Maximum_Depth_of_Binary_Tree.vcxproj", "{C0D52864-F5F0-4CA4-8C7A-03BBB6EE7951}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary_Tree_Zigzag_Level_Order_Traversal", "Binary_Tree_Zigzag_Level_Order_Traversal\Binary_Tree_Zigzag_Level_Order_Traversal.vcxproj", "{75D4C9BC-E3BD-42E1-BCCC-2F2324B8A3AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -285,6 +287,10 @@ Global
 		{C0D52864-F5F0-4CA4-8C7A-03BBB6EE7951}.Debug|Win32.Build.0 = Debug|Win32
 		{C0D52864-F5F0-4CA4-8C7A-03BBB6EE7951}.Release|Win32.ActiveCfg = Release|Win32
 		{C0D52864-F5F0-4CA4-8C7A-03BBB6EE7951}.Release|Win32.Build.0 = Release|Win32
+		{75D4C9BC-E3BD-42E1-BCCC-2F2324B8A3AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75D4C9BC-E3BD-42E1-BCCC-2F2324B8A3AF}.Debug|Win32.Build.0 = Debug|Win32
+		{75D4C9BC-E3BD-42E1-BCCC-2F2324B8A3AF}.Release|Win32.ActiveCfg = Release|Win32
+		{75D4C9BC-E3BD-42E1-BCCC-2F2324B8A3AF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

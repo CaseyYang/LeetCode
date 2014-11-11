@@ -13,47 +13,53 @@ public:
 		int leftUpdated = true;
 		int rightUpdated = true;
 		while (left != NULL&&right != NULL&&leftUpdated&&rightUpdated){
-			if(left->next==NULL) left->next = right;
-			if (left->right != NULL){
-				left = left->right;
-			}
-			else{
-				if (left->left != NULL){
-					left = left->left;
+			if (left->next == NULL) {
+				left->next = right;
+				if (left->right != NULL){
+					left = left->right;
 				}
 				else{
-					leftUpdated = false;
+					if (left->left != NULL){
+						left = left->left;
+					}
+					else{
+						leftUpdated = false;
+					}
 				}
-			}
-			if (right->left != NULL){
-				right = right->left;
-			}
-			else{
-				if (right->right != NULL){
-					right = right->right;
+				if (right->left != NULL){
+					right = right->left;
 				}
 				else{
-					rightUpdated = false;
+					if (right->right != NULL){
+						right = right->right;
+					}
+					else{
+						rightUpdated = false;
+					}
 				}
+			}
+			else{
+				break;
 			}
 		}
 	}
-
+	void DFS(TreeLinkNode *root){
+		if (root->left != NULL&&root->right != NULL){
+			function1(root->left, root->right);
+		}
+		if (root->left != NULL){
+			DFS(root->left);
+		}
+		if (root->right != NULL){
+			DFS(root->right);
+		}
+	}
 	void connect(TreeLinkNode *root) {
 		if (root == NULL){
 			return;
 		}
 		else{
-			TreeLinkNode *cur = root;
-			while (cur != NULL){
-				function1(cur->left, cur->right);
-				cur = cur->left;
-			}
-			cur = root;
-			while (cur != NULL){
-				function1(cur->left, cur->right);
-				cur = cur->right;
-			}
+			DFS(root);
 		}
 	}
 };

@@ -9,57 +9,50 @@ struct TreeLinkNode {
 
 class Solution {
 public:
-	void function1(TreeLinkNode *left, TreeLinkNode *right){
-		int leftUpdated = true;
-		int rightUpdated = true;
-		while (left != NULL&&right != NULL&&leftUpdated&&rightUpdated){
-			if (left->next == NULL) {
-				left->next = right;
-				if (left->right != NULL){
-					left = left->right;
-				}
-				else{
-					if (left->left != NULL){
-						left = left->left;
-					}
-					else{
-						leftUpdated = false;
-					}
-				}
-				if (right->left != NULL){
-					right = right->left;
-				}
-				else{
-					if (right->right != NULL){
-						right = right->right;
-					}
-					else{
-						rightUpdated = false;
-					}
-				}
-			}
-			else{
+	void BFS(TreeLinkNode *head){
+		TreeLinkNode *cur = NULL;
+		bool isLeft = false;
+		while (head != NULL&&cur == NULL){
+			if (head->left != NULL){
+				cur = head->left;
+				isLeft = true;
 				break;
 			}
+			if (head->right != NULL){
+				cur = head->right;
+				break;
+			}
+			head = head->next;
+		}
+		TreeLinkNode *newHead = NULL;
+		if (cur != NULL){
+			newHead = cur;
+			if (isLeft&&head->right != NULL){
+				cur->next = head->right;
+				cur = cur->next;
+			}
+			head = head->next;
+			while (head != NULL){
+				if (head->left != NULL){
+					cur->next = head->left;
+					cur = cur->next;
+				}
+				if (head->right != NULL){
+					cur->next = head->right;
+					cur = cur->next;
+				}
+				head = head->next;
+			}
+			BFS(newHead);
 		}
 	}
-	void DFS(TreeLinkNode *root){
-		if (root->left != NULL&&root->right != NULL){
-			function1(root->left, root->right);
-		}
-		if (root->left != NULL){
-			DFS(root->left);
-		}
-		if (root->right != NULL){
-			DFS(root->right);
-		}
-	}
+
 	void connect(TreeLinkNode *root) {
 		if (root == NULL){
 			return;
 		}
 		else{
-			DFS(root);
+			BFS(root);
 		}
 	}
 };

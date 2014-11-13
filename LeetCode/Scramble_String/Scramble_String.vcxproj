@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6BEEE6B1-B23F-4E97-8461-9CE22629B138}</ProjectGuid>
+    <ProjectGuid>{E2B951B0-0A87-4A5B-838D-C6DB4403169C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Subsets_II</RootNamespace>
+    <RootNamespace>Scramble_String</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

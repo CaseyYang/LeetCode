@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6BEEE6B1-B23F-4E97-8461-9CE22629B138}</ProjectGuid>
+    <ProjectGuid>{3C09A58F-CEC2-4035-9E64-5B4A2DDEBCBB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Subsets_II</RootNamespace>
+    <RootNamespace>Binary_Tree_Inorder_Traversal</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

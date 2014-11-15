@@ -144,6 +144,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		解题报告.docx = 解题报告.docx
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Partition_List", "Partition_List\Partition_List.vcxproj", "{BCBABDD2-43E0-4BE7-8A23-AE89C7849320}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -422,6 +424,10 @@ Global
 		{FDEE9588-3711-4CA8-A8D5-D5C6BBF29DB8}.Debug|Win32.Build.0 = Debug|Win32
 		{FDEE9588-3711-4CA8-A8D5-D5C6BBF29DB8}.Release|Win32.ActiveCfg = Release|Win32
 		{FDEE9588-3711-4CA8-A8D5-D5C6BBF29DB8}.Release|Win32.Build.0 = Release|Win32
+		{BCBABDD2-43E0-4BE7-8A23-AE89C7849320}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BCBABDD2-43E0-4BE7-8A23-AE89C7849320}.Debug|Win32.Build.0 = Debug|Win32
+		{BCBABDD2-43E0-4BE7-8A23-AE89C7849320}.Release|Win32.ActiveCfg = Release|Win32
+		{BCBABDD2-43E0-4BE7-8A23-AE89C7849320}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

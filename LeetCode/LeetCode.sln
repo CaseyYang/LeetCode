@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find_Minimum_in_Rotated_Sorted_Array", "Find_Minimum_in_Rotated_Sorted_Array\Find_Minimum_in_Rotated_Sorted_Array.vcxproj", "{6BD16B9F-3AA7-4A70-ADD3-A832F05F51D2}"
 EndProject
@@ -136,6 +136,13 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gray_Code", "Gray_Code\Gray_Code.vcxproj", "{0DE7CD78-9D9A-4CC1-8774-9A6ADD69A5D6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LRU_Cache", "LRU_Cache\LRU_Cache.vcxproj", "{FE3B334D-37F0-469E-A60D-6AA8BD146014}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Min_Stack", "Min_Stack\Min_Stack.vcxproj", "{FDEE9588-3711-4CA8-A8D5-D5C6BBF29DB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EB01AE0-FF63-4250-B159-7FF6A65A866D}"
+	ProjectSection(SolutionItems) = preProject
+		解题报告.docx = 解题报告.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -411,6 +418,10 @@ Global
 		{FE3B334D-37F0-469E-A60D-6AA8BD146014}.Debug|Win32.Build.0 = Debug|Win32
 		{FE3B334D-37F0-469E-A60D-6AA8BD146014}.Release|Win32.ActiveCfg = Release|Win32
 		{FE3B334D-37F0-469E-A60D-6AA8BD146014}.Release|Win32.Build.0 = Release|Win32
+		{FDEE9588-3711-4CA8-A8D5-D5C6BBF29DB8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FDEE9588-3711-4CA8-A8D5-D5C6BBF29DB8}.Debug|Win32.Build.0 = Debug|Win32
+		{FDEE9588-3711-4CA8-A8D5-D5C6BBF29DB8}.Release|Win32.ActiveCfg = Release|Win32
+		{FDEE9588-3711-4CA8-A8D5-D5C6BBF29DB8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

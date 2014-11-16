@@ -146,6 +146,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Partition_List", "Partition_List\Partition_List.vcxproj", "{BCBABDD2-43E0-4BE7-8A23-AE89C7849320}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove_Duplicates_from_Sorted_List_II", "Remove_Duplicates_from_Sorted_List_II\Remove_Duplicates_from_Sorted_List_II.vcxproj", "{604BDA3B-2261-454B-AA15-C51DAC432F61}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove_Duplicates_from_Sorted_List", "Remove_Duplicates_from_Sorted_List\Remove_Duplicates_from_Sorted_List.vcxproj", "{AB2959F8-545F-497E-99D9-CF26022BF5A0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Search_in_Rotated_Sorted_Array", "Search_in_Rotated_Sorted_Array\Search_in_Rotated_Sorted_Array.vcxproj", "{5A39CD55-D48B-4C45-81C9-F724B7CED0CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -428,6 +434,18 @@ Global
 		{BCBABDD2-43E0-4BE7-8A23-AE89C7849320}.Debug|Win32.Build.0 = Debug|Win32
 		{BCBABDD2-43E0-4BE7-8A23-AE89C7849320}.Release|Win32.ActiveCfg = Release|Win32
 		{BCBABDD2-43E0-4BE7-8A23-AE89C7849320}.Release|Win32.Build.0 = Release|Win32
+		{604BDA3B-2261-454B-AA15-C51DAC432F61}.Debug|Win32.ActiveCfg = Debug|Win32
+		{604BDA3B-2261-454B-AA15-C51DAC432F61}.Debug|Win32.Build.0 = Debug|Win32
+		{604BDA3B-2261-454B-AA15-C51DAC432F61}.Release|Win32.ActiveCfg = Release|Win32
+		{604BDA3B-2261-454B-AA15-C51DAC432F61}.Release|Win32.Build.0 = Release|Win32
+		{AB2959F8-545F-497E-99D9-CF26022BF5A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB2959F8-545F-497E-99D9-CF26022BF5A0}.Debug|Win32.Build.0 = Debug|Win32
+		{AB2959F8-545F-497E-99D9-CF26022BF5A0}.Release|Win32.ActiveCfg = Release|Win32
+		{AB2959F8-545F-497E-99D9-CF26022BF5A0}.Release|Win32.Build.0 = Release|Win32
+		{5A39CD55-D48B-4C45-81C9-F724B7CED0CB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A39CD55-D48B-4C45-81C9-F724B7CED0CB}.Debug|Win32.Build.0 = Debug|Win32
+		{5A39CD55-D48B-4C45-81C9-F724B7CED0CB}.Release|Win32.ActiveCfg = Release|Win32
+		{5A39CD55-D48B-4C45-81C9-F724B7CED0CB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

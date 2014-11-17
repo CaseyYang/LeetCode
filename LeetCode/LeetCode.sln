@@ -160,6 +160,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximal_Rectangle", "Maxima
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Largest_Rectangle_in_Histogram", "Largest_Rectangle_in_Histogram\Largest_Rectangle_in_Histogram.vcxproj", "{2970D285-1734-4AF9-996C-89B1D913F912}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Combinations", "Combinations\Combinations.vcxproj", "{3758EA8E-241B-4969-BFCE-7EFB66BAB926}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word_Search", "Word_Search\Word_Search.vcxproj", "{12BFF064-D2CA-4B60-8FAD-348724B8D234}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -470,6 +474,14 @@ Global
 		{2970D285-1734-4AF9-996C-89B1D913F912}.Debug|Win32.Build.0 = Debug|Win32
 		{2970D285-1734-4AF9-996C-89B1D913F912}.Release|Win32.ActiveCfg = Release|Win32
 		{2970D285-1734-4AF9-996C-89B1D913F912}.Release|Win32.Build.0 = Release|Win32
+		{3758EA8E-241B-4969-BFCE-7EFB66BAB926}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3758EA8E-241B-4969-BFCE-7EFB66BAB926}.Debug|Win32.Build.0 = Debug|Win32
+		{3758EA8E-241B-4969-BFCE-7EFB66BAB926}.Release|Win32.ActiveCfg = Release|Win32
+		{3758EA8E-241B-4969-BFCE-7EFB66BAB926}.Release|Win32.Build.0 = Release|Win32
+		{12BFF064-D2CA-4B60-8FAD-348724B8D234}.Debug|Win32.ActiveCfg = Debug|Win32
+		{12BFF064-D2CA-4B60-8FAD-348724B8D234}.Debug|Win32.Build.0 = Debug|Win32
+		{12BFF064-D2CA-4B60-8FAD-348724B8D234}.Release|Win32.ActiveCfg = Release|Win32
+		{12BFF064-D2CA-4B60-8FAD-348724B8D234}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

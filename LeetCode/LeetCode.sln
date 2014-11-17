@@ -164,6 +164,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Combinations", "Combination
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word_Search", "Word_Search\Word_Search.vcxproj", "{12BFF064-D2CA-4B60-8FAD-348724B8D234}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sort_Colors", "Sort_Colors\Sort_Colors.vcxproj", "{F0924992-888C-44A7-9FF2-9EAD0215B0EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum_Window_Substring", "Minimum_Window_Substring\Minimum_Window_Substring.vcxproj", "{5953F285-FA3B-4C2F-A458-8FB565FCF008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -482,6 +486,14 @@ Global
 		{12BFF064-D2CA-4B60-8FAD-348724B8D234}.Debug|Win32.Build.0 = Debug|Win32
 		{12BFF064-D2CA-4B60-8FAD-348724B8D234}.Release|Win32.ActiveCfg = Release|Win32
 		{12BFF064-D2CA-4B60-8FAD-348724B8D234}.Release|Win32.Build.0 = Release|Win32
+		{F0924992-888C-44A7-9FF2-9EAD0215B0EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0924992-888C-44A7-9FF2-9EAD0215B0EC}.Debug|Win32.Build.0 = Debug|Win32
+		{F0924992-888C-44A7-9FF2-9EAD0215B0EC}.Release|Win32.ActiveCfg = Release|Win32
+		{F0924992-888C-44A7-9FF2-9EAD0215B0EC}.Release|Win32.Build.0 = Release|Win32
+		{5953F285-FA3B-4C2F-A458-8FB565FCF008}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5953F285-FA3B-4C2F-A458-8FB565FCF008}.Debug|Win32.Build.0 = Debug|Win32
+		{5953F285-FA3B-4C2F-A458-8FB565FCF008}.Release|Win32.ActiveCfg = Release|Win32
+		{5953F285-FA3B-4C2F-A458-8FB565FCF008}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

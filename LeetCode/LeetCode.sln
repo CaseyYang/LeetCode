@@ -180,6 +180,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sqrt(x)", "Sqrt(x)\Sqrt(x).
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum_Path_Sum", "Minimum_Path_Sum\Minimum_Path_Sum.vcxproj", "{5F9621A7-9C6D-4224-9BE9-950D3F657083}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unique_Paths_II", "Unique_Paths_II\Unique_Paths_II.vcxproj", "{55E5695D-5016-42BB-97AC-FB854331A9E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unique_Paths", "Unique_Paths\Unique_Paths.vcxproj", "{58A4DF31-ECB0-445C-9406-8B916B0B7F88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -530,6 +534,14 @@ Global
 		{5F9621A7-9C6D-4224-9BE9-950D3F657083}.Debug|Win32.Build.0 = Debug|Win32
 		{5F9621A7-9C6D-4224-9BE9-950D3F657083}.Release|Win32.ActiveCfg = Release|Win32
 		{5F9621A7-9C6D-4224-9BE9-950D3F657083}.Release|Win32.Build.0 = Release|Win32
+		{55E5695D-5016-42BB-97AC-FB854331A9E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55E5695D-5016-42BB-97AC-FB854331A9E1}.Debug|Win32.Build.0 = Debug|Win32
+		{55E5695D-5016-42BB-97AC-FB854331A9E1}.Release|Win32.ActiveCfg = Release|Win32
+		{55E5695D-5016-42BB-97AC-FB854331A9E1}.Release|Win32.Build.0 = Release|Win32
+		{58A4DF31-ECB0-445C-9406-8B916B0B7F88}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58A4DF31-ECB0-445C-9406-8B916B0B7F88}.Debug|Win32.Build.0 = Debug|Win32
+		{58A4DF31-ECB0-445C-9406-8B916B0B7F88}.Release|Win32.ActiveCfg = Release|Win32
+		{58A4DF31-ECB0-445C-9406-8B916B0B7F88}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

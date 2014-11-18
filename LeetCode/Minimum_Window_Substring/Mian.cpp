@@ -1,52 +1,51 @@
 #include<iostream>
 #include<vector>
 #include<map>
+#include<set>
 #include<string>
+#include<queue>
 using namespace std;
-struct Node{
-	map<char, int> ms;
-	Node(){
-		ms = map<char, int>();
-	}
-	Node(const Node &source) :ms(source.ms){}
-	void output(){
-		for each (pair<char, int> var in ms)
-		{
-			cout << var.first << "," << var.second << " ";
-		}
-		cout << "#";
-	}
-};
 class Solution {
 public:
+	bool compare(map<char, int> &m1, map<char, int> &m2){
+		for (map<char, int>::iterator iter = m1.begin(); iter != m1.end(); ++iter){
+			if (m2[iter->first] != iter->second){
+				return false;
+			}
+		}
+		return true;
+	}
 	string minWindow(string S, string T) {
-		if (T.size() == 0) return "";
+		map<char, int> words = map<char, int>();
+		map<char, int> foundWords = map<char, int>();
+		queue<int> indexes = queue<int>();
+		for (int i = 0; i < T.size(); ++i){
+			words[T[i]] += 1;
+		}
+		int j = -1;
+		char curWord;
 		int minLength = INT_MAX;
 		int start = 0;
-		Node *dp = new Node[S.size()];
 		for (int i = 0; i < S.size(); ++i){
-			for (int j = i; j < S.size(); ++j){
-				if (i == 0){
-					if (j != 0)	dp[j] = Node(dp[j - 1]);
-					if (T.find_first_of(S[j]) != T.npos){
-						dp[j].ms[S[j]] += 1;
-					}
+			if (words[S[i]] > 0){
+				if (!compare(words, foundWords)){
+					foundWords[S[i]] += 1;
+					indexes.push(i);
 				}
 				else{
-					if (T.find_first_of(S[i - 1]) != T.npos){
-						dp[j].ms[S[i - 1]] -= 1;
+					while (true){
+						j = indexes.front();
+						indexes.pop();
+						int curLength = i - j;
+						if (curLength < minLength){
+							minLength = curLength;
+							start = j;
+						}
+						curWord = S[j];
+						foundWords[curWord] -= 1;
+						if (foundWords[curWord] < words[curWord]){
+						}
 					}
-				}
-				int flag = true;
-				for (int k = 0; k < T.size(); ++k){
-					if (dp[j].ms[T[k]] != 1){
-						flag = false;
-						break;
-					}
-				}
-				if (flag&&minLength>j - i + 1){
-					minLength = j - i + 1;
-					start = i;
 				}
 			}
 		}

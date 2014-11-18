@@ -51,7 +51,6 @@ public:
 				return S.substr(minStart, minLength);
 			else
 				return S.substr(indexes.front());
-
 		}
 		else{
 			return "";

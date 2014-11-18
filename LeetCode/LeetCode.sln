@@ -178,6 +178,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Climbing_Stairs", "Climbing
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sqrt(x)", "Sqrt(x)\Sqrt(x).vcxproj", "{19588890-3589-4930-907F-89245B248688}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum_Path_Sum", "Minimum_Path_Sum\Minimum_Path_Sum.vcxproj", "{5F9621A7-9C6D-4224-9BE9-950D3F657083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -524,6 +526,10 @@ Global
 		{19588890-3589-4930-907F-89245B248688}.Debug|Win32.Build.0 = Debug|Win32
 		{19588890-3589-4930-907F-89245B248688}.Release|Win32.ActiveCfg = Release|Win32
 		{19588890-3589-4930-907F-89245B248688}.Release|Win32.Build.0 = Release|Win32
+		{5F9621A7-9C6D-4224-9BE9-950D3F657083}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F9621A7-9C6D-4224-9BE9-950D3F657083}.Debug|Win32.Build.0 = Debug|Win32
+		{5F9621A7-9C6D-4224-9BE9-950D3F657083}.Release|Win32.ActiveCfg = Release|Win32
+		{5F9621A7-9C6D-4224-9BE9-950D3F657083}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

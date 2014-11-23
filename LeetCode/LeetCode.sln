@@ -190,6 +190,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Merge_Two_Sorted_Lists", "M
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plus_One", "Plus_One\Plus_One.vcxproj", "{525038CA-187D-4373-8B63-8098835317CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Text_Justification", "Text_Justification\Text_Justification.vcxproj", "{B2BA2FBB-56C1-41C2-9252-3E503DEFEBCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -560,6 +562,10 @@ Global
 		{525038CA-187D-4373-8B63-8098835317CA}.Debug|Win32.Build.0 = Debug|Win32
 		{525038CA-187D-4373-8B63-8098835317CA}.Release|Win32.ActiveCfg = Release|Win32
 		{525038CA-187D-4373-8B63-8098835317CA}.Release|Win32.Build.0 = Release|Win32
+		{B2BA2FBB-56C1-41C2-9252-3E503DEFEBCE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2BA2FBB-56C1-41C2-9252-3E503DEFEBCE}.Debug|Win32.Build.0 = Debug|Win32
+		{B2BA2FBB-56C1-41C2-9252-3E503DEFEBCE}.Release|Win32.ActiveCfg = Release|Win32
+		{B2BA2FBB-56C1-41C2-9252-3E503DEFEBCE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

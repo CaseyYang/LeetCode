@@ -196,6 +196,18 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximum_Subarray", "Maximum
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Permutation_Sequence", "Permutation_Sequence\Permutation_Sequence.vcxproj", "{F04F2F03-3888-444E-A789-86C8E86AA7CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Anagrams", "Anagrams\Anagrams.vcxproj", "{43F68F21-9D86-448A-BF13-559F545A6F62}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rotate_Image", "Rotate_Image\Rotate_Image.vcxproj", "{E31F92DD-6CA1-4289-BE04-0970E8DA3EFF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pow(x, n)", "Pow(x, n)\Pow(x, n).vcxproj", "{1956D950-ABBE-473A-94E1-7A673B946761}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Permutations", "Permutations\Permutations.vcxproj", "{37E1CBCC-039F-438F-B4E8-798F71AE1688}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Permutations_II", "Permutations_II\Permutations_II.vcxproj", "{41924756-77CD-4C64-8ACE-981D860DF400}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Jump_Game_II", "Jump_Game_II\Jump_Game_II.vcxproj", "{C2B9195B-3AFC-4B15-B398-B273DC6EC987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -578,6 +590,30 @@ Global
 		{F04F2F03-3888-444E-A789-86C8E86AA7CA}.Debug|Win32.Build.0 = Debug|Win32
 		{F04F2F03-3888-444E-A789-86C8E86AA7CA}.Release|Win32.ActiveCfg = Release|Win32
 		{F04F2F03-3888-444E-A789-86C8E86AA7CA}.Release|Win32.Build.0 = Release|Win32
+		{43F68F21-9D86-448A-BF13-559F545A6F62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{43F68F21-9D86-448A-BF13-559F545A6F62}.Debug|Win32.Build.0 = Debug|Win32
+		{43F68F21-9D86-448A-BF13-559F545A6F62}.Release|Win32.ActiveCfg = Release|Win32
+		{43F68F21-9D86-448A-BF13-559F545A6F62}.Release|Win32.Build.0 = Release|Win32
+		{E31F92DD-6CA1-4289-BE04-0970E8DA3EFF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E31F92DD-6CA1-4289-BE04-0970E8DA3EFF}.Debug|Win32.Build.0 = Debug|Win32
+		{E31F92DD-6CA1-4289-BE04-0970E8DA3EFF}.Release|Win32.ActiveCfg = Release|Win32
+		{E31F92DD-6CA1-4289-BE04-0970E8DA3EFF}.Release|Win32.Build.0 = Release|Win32
+		{1956D950-ABBE-473A-94E1-7A673B946761}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1956D950-ABBE-473A-94E1-7A673B946761}.Debug|Win32.Build.0 = Debug|Win32
+		{1956D950-ABBE-473A-94E1-7A673B946761}.Release|Win32.ActiveCfg = Release|Win32
+		{1956D950-ABBE-473A-94E1-7A673B946761}.Release|Win32.Build.0 = Release|Win32
+		{37E1CBCC-039F-438F-B4E8-798F71AE1688}.Debug|Win32.ActiveCfg = Debug|Win32
+		{37E1CBCC-039F-438F-B4E8-798F71AE1688}.Debug|Win32.Build.0 = Debug|Win32
+		{37E1CBCC-039F-438F-B4E8-798F71AE1688}.Release|Win32.ActiveCfg = Release|Win32
+		{37E1CBCC-039F-438F-B4E8-798F71AE1688}.Release|Win32.Build.0 = Release|Win32
+		{41924756-77CD-4C64-8ACE-981D860DF400}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41924756-77CD-4C64-8ACE-981D860DF400}.Debug|Win32.Build.0 = Debug|Win32
+		{41924756-77CD-4C64-8ACE-981D860DF400}.Release|Win32.ActiveCfg = Release|Win32
+		{41924756-77CD-4C64-8ACE-981D860DF400}.Release|Win32.Build.0 = Release|Win32
+		{C2B9195B-3AFC-4B15-B398-B273DC6EC987}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2B9195B-3AFC-4B15-B398-B273DC6EC987}.Debug|Win32.Build.0 = Debug|Win32
+		{C2B9195B-3AFC-4B15-B398-B273DC6EC987}.Release|Win32.ActiveCfg = Release|Win32
+		{C2B9195B-3AFC-4B15-B398-B273DC6EC987}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

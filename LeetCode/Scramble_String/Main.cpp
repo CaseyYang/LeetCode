@@ -7,9 +7,9 @@ public:
 		if (s1 == s2) return true;
 		if (s1.size() != s2.size()) return false;
 		int charset[26] = { 0 };
-		//for (int i = 0; i < s1.size(); ++i)			charset[s1[i] - 'a']++;
-		//for (int i = 0; i < s2.size(); ++i)			charset[s2[i] - 'a']--;
-		//for (int i = 0; i < 26; ++i)			if (charset[i] != 0) return false;
+		for (int i = 0; i < s1.size(); ++i)			charset[s1[i] - 'a']++;
+		for (int i = 0; i < s2.size(); ++i)			charset[s2[i] - 'a']--;
+		for (int i = 0; i < 26; ++i)			if (charset[i] != 0) return false;
 		//end
 
 		bool result = false;

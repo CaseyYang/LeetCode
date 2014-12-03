@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{07E257F9-7695-4E58-B37B-10BF24BB4BB5}</ProjectGuid>
+    <ProjectGuid>{E9CAAE69-5EB6-4289-98F5-53D8C8D8092D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Palindrome_Number</RootNamespace>
+    <RootNamespace>Reverse_Integer</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

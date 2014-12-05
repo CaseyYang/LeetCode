@@ -24,14 +24,41 @@ public:
 		if (num.size() == 0) result;
 		set<vector<int>> setResult;
 		sort(num, 0, num.size() - 1);
+		int lastI = INT_MAX;
 		for (int i = 0; i < num.size(); ++i){
-			if (num[i]>0) continue;
+			if (num[i] == lastI) continue;
+			else lastI = num[i];
+			if (num[i]>0) break;
+			int lastJ = INT_MAX, lastK = INT_MIN;
+			bool changeJ = false, changeK = false;
 			for (int j = i + 1, k = num.size() - 1; j < k;){
+				if (changeJ){
+					if (lastJ == num[j]){
+						++j;
+						continue;
+					}
+					else changeJ = false;
+				}
+				if (changeK){
+					if (lastK == num[k]){
+						--k;
+						continue;
+					}
+					else changeK = false;
+				}
 				if (num[j] + num[k] > 0 - num[i]){
+					changeK = true;
+					changeJ = false;
+					lastJ = num[j];
+					lastK = num[k];
 					--k;
 				}
 				else{
 					if (num[j] + num[k] < 0 - num[i]){
+						changeJ = true;
+						changeK = false;
+						lastJ = num[j];
+						lastK = num[k];
 						++j;
 					}
 					else{
@@ -39,14 +66,19 @@ public:
 						tmpResult.push_back(num[i]);
 						tmpResult.push_back(num[j]);
 						tmpResult.push_back(num[k]);
-						setResult.insert(tmpResult);
+						result.push_back(tmpResult);
+						//setResult.insert(tmpResult);
+						changeJ = true;
+						changeK = true;
+						lastJ = num[j];
+						lastK = num[k];
 						--k;
 						++j;
 					}
 				}
 			}
 		}
-		result = vector<vector<int>>(setResult.begin(), setResult.end());
+		//result = vector<vector<int>>(setResult.begin(), setResult.end());
 		return result;
 	}
 };

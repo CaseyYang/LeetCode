@@ -1,24 +1,34 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 class Solution {
 public:
-	void Recursion(vector<int> &num, int end){
-		bool changed = true;
-		for (int i = num.size() - 1; i > end;){
-			if (num[i] > num[i - 1]){
-				swap(num[i - 1], num[num.size() - 1]);
-				return Recursion(num, i);
+	void nextPermutation(vector<int> &num) {
+		int minIndex = -1;
+		int newStart = -1;
+		for (int i = num.size() - 1; i > 0; --i){
+			if (minIndex == -1 || num[i] < num[minIndex]){
+				minIndex = i;
 			}
-			else{
-				--i;
+			if (num[i] > num[i - 1]){
+				int cur = INT_MAX;
+				for (int j = num.size() - 1; j >= i; --j){
+					if (num[j] > num[i - 1] && num[j] < cur){
+						cur = num[j];
+						minIndex = j;
+					}
+				}
+				swap(num[i - 1], num[minIndex]);
+				newStart = i;
+				break;
 			}
 		}
-		swap(num[end], num[num.size() - 1]);
-		return;
-	}
-	void nextPermutation(vector<int> &num) {
-		Recursion(num,0);
+		if (newStart == -1) {
+			swap(num[0], num[num.size() - 1]);
+			newStart = 0;
+		}
+		sort(num.begin() + newStart, num.end());
 	}
 };
 int main(){

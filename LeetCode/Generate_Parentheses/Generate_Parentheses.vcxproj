@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5B45C8A0-445F-443D-9555-8ADAB8F49D89}</ProjectGuid>
+    <ProjectGuid>{C4AE68C0-A731-4840-8710-0E57DAF10BE9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Merge_k_Sorted_Lists</RootNamespace>
+    <RootNamespace>Generate_Parentheses</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

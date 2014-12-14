@@ -264,6 +264,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Intersection_of_Two_Linked_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find_Peak_Element", "Find_Peak_Element\Find_Peak_Element.vcxproj", "{618D9F84-8758-4CE9-A869-D5887B7FA83D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Implement_strStr()", "Implement_strStr()\Implement_strStr().vcxproj", "{4D60104F-F34E-46FC-8386-DC207BD4E5FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximum_Gap", "Maximum_Gap\Maximum_Gap.vcxproj", "{1990D047-9501-47A8-A5E6-9E24D2084794}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -782,6 +786,14 @@ Global
 		{618D9F84-8758-4CE9-A869-D5887B7FA83D}.Debug|Win32.Build.0 = Debug|Win32
 		{618D9F84-8758-4CE9-A869-D5887B7FA83D}.Release|Win32.ActiveCfg = Release|Win32
 		{618D9F84-8758-4CE9-A869-D5887B7FA83D}.Release|Win32.Build.0 = Release|Win32
+		{4D60104F-F34E-46FC-8386-DC207BD4E5FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4D60104F-F34E-46FC-8386-DC207BD4E5FD}.Debug|Win32.Build.0 = Debug|Win32
+		{4D60104F-F34E-46FC-8386-DC207BD4E5FD}.Release|Win32.ActiveCfg = Release|Win32
+		{4D60104F-F34E-46FC-8386-DC207BD4E5FD}.Release|Win32.Build.0 = Release|Win32
+		{1990D047-9501-47A8-A5E6-9E24D2084794}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1990D047-9501-47A8-A5E6-9E24D2084794}.Debug|Win32.Build.0 = Debug|Win32
+		{1990D047-9501-47A8-A5E6-9E24D2084794}.Release|Win32.ActiveCfg = Release|Win32
+		{1990D047-9501-47A8-A5E6-9E24D2084794}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

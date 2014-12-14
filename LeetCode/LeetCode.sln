@@ -250,6 +250,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove_Element", "Remove_El
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove_Duplicates_from_Sorted_Array", "Remove_Duplicates_from_Sorted_Array\Remove_Duplicates_from_Sorted_Array.vcxproj", "{F3A91A6E-B5D8-4701-BEC2-6C96D8F534EE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest_Valid_Parentheses", "Longest_Valid_Parentheses\Longest_Valid_Parentheses.vcxproj", "{8D5C8208-9ED6-432B-870E-E2503D8EB7C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -740,6 +742,10 @@ Global
 		{F3A91A6E-B5D8-4701-BEC2-6C96D8F534EE}.Debug|Win32.Build.0 = Debug|Win32
 		{F3A91A6E-B5D8-4701-BEC2-6C96D8F534EE}.Release|Win32.ActiveCfg = Release|Win32
 		{F3A91A6E-B5D8-4701-BEC2-6C96D8F534EE}.Release|Win32.Build.0 = Release|Win32
+		{8D5C8208-9ED6-432B-870E-E2503D8EB7C5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D5C8208-9ED6-432B-870E-E2503D8EB7C5}.Debug|Win32.Build.0 = Debug|Win32
+		{8D5C8208-9ED6-432B-870E-E2503D8EB7C5}.Release|Win32.ActiveCfg = Release|Win32
+		{8D5C8208-9ED6-432B-870E-E2503D8EB7C5}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

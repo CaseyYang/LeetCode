@@ -262,6 +262,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Search_Insert_Position", "S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Intersection_of_Two_Linked_Lists", "Intersection_of_Two_Linked_Lists\Intersection_of_Two_Linked_Lists.vcxproj", "{B4EBC10F-650D-4574-A278-7815F448384B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find_Peak_Element", "Find_Peak_Element\Find_Peak_Element.vcxproj", "{618D9F84-8758-4CE9-A869-D5887B7FA83D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -776,6 +778,10 @@ Global
 		{B4EBC10F-650D-4574-A278-7815F448384B}.Debug|Win32.Build.0 = Debug|Win32
 		{B4EBC10F-650D-4574-A278-7815F448384B}.Release|Win32.ActiveCfg = Release|Win32
 		{B4EBC10F-650D-4574-A278-7815F448384B}.Release|Win32.Build.0 = Release|Win32
+		{618D9F84-8758-4CE9-A869-D5887B7FA83D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{618D9F84-8758-4CE9-A869-D5887B7FA83D}.Debug|Win32.Build.0 = Debug|Win32
+		{618D9F84-8758-4CE9-A869-D5887B7FA83D}.Release|Win32.ActiveCfg = Release|Win32
+		{618D9F84-8758-4CE9-A869-D5887B7FA83D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

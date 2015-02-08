@@ -280,6 +280,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Combination_Sum_II", "Combi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count_and_Say", "Count_and_Say\Count_and_Say.vcxproj", "{5F6AD99C-6D8A-4B31-A6CF-788225105F44}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Repeated_DNA_Sequences", "Repeated_DNA_Sequences\Repeated_DNA_Sequences.vcxproj", "{74C55EA7-06FE-4D0C-B8AD-A7F83C0C1D27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -830,6 +832,10 @@ Global
 		{5F6AD99C-6D8A-4B31-A6CF-788225105F44}.Debug|Win32.Build.0 = Debug|Win32
 		{5F6AD99C-6D8A-4B31-A6CF-788225105F44}.Release|Win32.ActiveCfg = Release|Win32
 		{5F6AD99C-6D8A-4B31-A6CF-788225105F44}.Release|Win32.Build.0 = Release|Win32
+		{74C55EA7-06FE-4D0C-B8AD-A7F83C0C1D27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74C55EA7-06FE-4D0C-B8AD-A7F83C0C1D27}.Debug|Win32.Build.0 = Debug|Win32
+		{74C55EA7-06FE-4D0C-B8AD-A7F83C0C1D27}.Release|Win32.ActiveCfg = Release|Win32
+		{74C55EA7-06FE-4D0C-B8AD-A7F83C0C1D27}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

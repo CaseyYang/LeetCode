@@ -282,6 +282,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count_and_Say", "Count_and_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Repeated_DNA_Sequences", "Repeated_DNA_Sequences\Repeated_DNA_Sequences.vcxproj", "{74C55EA7-06FE-4D0C-B8AD-A7F83C0C1D27}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Largest_Number", "Largest_Number\Largest_Number.vcxproj", "{103114F1-0AED-4CF4-AB32-A442B13CBA88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -836,6 +838,10 @@ Global
 		{74C55EA7-06FE-4D0C-B8AD-A7F83C0C1D27}.Debug|Win32.Build.0 = Debug|Win32
 		{74C55EA7-06FE-4D0C-B8AD-A7F83C0C1D27}.Release|Win32.ActiveCfg = Release|Win32
 		{74C55EA7-06FE-4D0C-B8AD-A7F83C0C1D27}.Release|Win32.Build.0 = Release|Win32
+		{103114F1-0AED-4CF4-AB32-A442B13CBA88}.Debug|Win32.ActiveCfg = Debug|Win32
+		{103114F1-0AED-4CF4-AB32-A442B13CBA88}.Debug|Win32.Build.0 = Debug|Win32
+		{103114F1-0AED-4CF4-AB32-A442B13CBA88}.Release|Win32.ActiveCfg = Release|Win32
+		{103114F1-0AED-4CF4-AB32-A442B13CBA88}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

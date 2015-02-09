@@ -284,6 +284,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Repeated_DNA_Sequences", "R
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Largest_Number", "Largest_Number\Largest_Number.vcxproj", "{103114F1-0AED-4CF4-AB32-A442B13CBA88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dungeon_Game", "Dungeon_Game\Dungeon_Game.vcxproj", "{A18B5642-0E0B-4626-92ED-6C8E314D31AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factorial_Trailiing_Zeroes", "Factorial_Trailiing_Zeroes\Factorial_Trailiing_Zeroes.vcxproj", "{B16582F7-4CF2-480B-B297-5B03289B07CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary_Search_Tree_Iterator", "Binary_Search_Tree_Iterator\Binary_Search_Tree_Iterator.vcxproj", "{B1024800-F3F2-4CF9-A4F7-A2FC7F3C9EF5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fraction_to_Recurring_Decimal", "Fraction_to_Recurring_Decimal\Fraction_to_Recurring_Decimal.vcxproj", "{5F714FA7-0EBB-4D70-85C6-8D645DB63380}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -842,6 +850,22 @@ Global
 		{103114F1-0AED-4CF4-AB32-A442B13CBA88}.Debug|Win32.Build.0 = Debug|Win32
 		{103114F1-0AED-4CF4-AB32-A442B13CBA88}.Release|Win32.ActiveCfg = Release|Win32
 		{103114F1-0AED-4CF4-AB32-A442B13CBA88}.Release|Win32.Build.0 = Release|Win32
+		{A18B5642-0E0B-4626-92ED-6C8E314D31AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A18B5642-0E0B-4626-92ED-6C8E314D31AF}.Debug|Win32.Build.0 = Debug|Win32
+		{A18B5642-0E0B-4626-92ED-6C8E314D31AF}.Release|Win32.ActiveCfg = Release|Win32
+		{A18B5642-0E0B-4626-92ED-6C8E314D31AF}.Release|Win32.Build.0 = Release|Win32
+		{B16582F7-4CF2-480B-B297-5B03289B07CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B16582F7-4CF2-480B-B297-5B03289B07CE}.Debug|Win32.Build.0 = Debug|Win32
+		{B16582F7-4CF2-480B-B297-5B03289B07CE}.Release|Win32.ActiveCfg = Release|Win32
+		{B16582F7-4CF2-480B-B297-5B03289B07CE}.Release|Win32.Build.0 = Release|Win32
+		{B1024800-F3F2-4CF9-A4F7-A2FC7F3C9EF5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1024800-F3F2-4CF9-A4F7-A2FC7F3C9EF5}.Debug|Win32.Build.0 = Debug|Win32
+		{B1024800-F3F2-4CF9-A4F7-A2FC7F3C9EF5}.Release|Win32.ActiveCfg = Release|Win32
+		{B1024800-F3F2-4CF9-A4F7-A2FC7F3C9EF5}.Release|Win32.Build.0 = Release|Win32
+		{5F714FA7-0EBB-4D70-85C6-8D645DB63380}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F714FA7-0EBB-4D70-85C6-8D645DB63380}.Debug|Win32.Build.0 = Debug|Win32
+		{5F714FA7-0EBB-4D70-85C6-8D645DB63380}.Release|Win32.ActiveCfg = Release|Win32
+		{5F714FA7-0EBB-4D70-85C6-8D645DB63380}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

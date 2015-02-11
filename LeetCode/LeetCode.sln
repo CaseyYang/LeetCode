@@ -294,6 +294,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fraction_to_Recurring_Decim
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Majority_Element", "Majority_Element\Majority_Element.vcxproj", "{B0C56D92-D4A1-40E8-A88B-502D85BB5820}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factorial_Trailing_Zeroes", "Factorial_Trailing_Zeroes\Factorial_Trailing_Zeroes.vcxproj", "{D57D9B4C-9238-482A-9DE2-F191AE74C6E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -872,6 +874,10 @@ Global
 		{B0C56D92-D4A1-40E8-A88B-502D85BB5820}.Debug|Win32.Build.0 = Debug|Win32
 		{B0C56D92-D4A1-40E8-A88B-502D85BB5820}.Release|Win32.ActiveCfg = Release|Win32
 		{B0C56D92-D4A1-40E8-A88B-502D85BB5820}.Release|Win32.Build.0 = Release|Win32
+		{D57D9B4C-9238-482A-9DE2-F191AE74C6E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D57D9B4C-9238-482A-9DE2-F191AE74C6E7}.Debug|Win32.Build.0 = Debug|Win32
+		{D57D9B4C-9238-482A-9DE2-F191AE74C6E7}.Release|Win32.ActiveCfg = Release|Win32
+		{D57D9B4C-9238-482A-9DE2-F191AE74C6E7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

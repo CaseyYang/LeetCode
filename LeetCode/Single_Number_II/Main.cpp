@@ -17,9 +17,9 @@ public:
 			}
 			results[31 - i] = count % 3;
 		}
-		if (results[0] == 0){
-			int multi = 1;
-			int result = 0;
+		int multi = 1;
+		int result = 0;
+		if (results[0] == 0){			
 			for (int i = 31; i >= 1; --i){
 				result += results[i] * multi;
 				multi = multi * 2;
@@ -27,8 +27,6 @@ public:
 			return result;
 		}
 		else{
-			int multi = 1;
-			int result = 0;
 			for (int i = 31; i >= 1; --i){
 				result += (1 - results[i]) * multi;
 				multi = multi * 2;

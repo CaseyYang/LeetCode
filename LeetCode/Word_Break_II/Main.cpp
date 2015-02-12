@@ -2,20 +2,44 @@
 #include<vector>
 #include<string>
 #include<unordered_set>
+#include<time.h>
 using namespace std;
 
 //解法来源：http://blog.csdn.net/lanxu_yy/article/details/17310247
 //勘误：“dp[i][j]表示，从i到j的字符串是否在字典之中。”-->dp[i][j]表示的是从第i个字符起始j个字符的子串是否在字典中
 
-//我的思路
-//构造一个多叉树结构：根结点是""，第一层叶子结点是从第一个字符开始的在字典中的字符（即cat和cats），第二层分别为sand和and，即每层是从父结点末尾开始所找到的在字典中存在的单词
-//最后深度遍历树结构，遇到叶子结点时输出从所有父结点和叶子结点即可
 
 class Solution {
-public:
+public:	
+	vector<string> result;
+	//从前向后枚举，样例1超时
+	vector<string> tmpResult;
+	void func(string &s, int start, unordered_set<string> &dict){
+		if (start == s.size()){
+			string singleResult = "";
+			for (int i = 0; i<tmpResult.size(); ++i){
+				singleResult += tmpResult[i] + " ";
+			}
+			if (singleResult != "") result.push_back(singleResult.substr(0, singleResult.size() - 1));
+			return;
+		}
+		for (int i = start + 1; i <= s.size(); ++i){
+			string tmpS = s.substr(start, i - start);
+			if (dict.find(tmpS) != dict.end()){
+				tmpResult.push_back(tmpS);
+				func(s, i, dict);
+				tmpResult.pop_back();
+			}
+		}
+		return;
+	}
+	vector<string> wordBreak2(string s, unordered_set<string> &dict) {
+		func(s, 0, dict);
+		return result;
+	}
+	//从后向前枚举，样例2超时
 	vector<bool>* dp;
 	vector<string> mystring;
-	vector<string> result;
 	vector<string> wordBreak(string s, unordered_set<string> &dict) {
 		dp = new vector<bool>[s.size()];
 		for (int i = 0; i < s.size(); i++)
@@ -28,7 +52,6 @@ public:
 		output(s.size() - 1, s);
 		return result;
 	}
-
 	void output(int i, string s)
 	{
 		if (i == -1)
@@ -43,25 +66,20 @@ public:
 				}
 			}
 			result.push_back(str);
-			//system("pause");
 		}
 		else
 		{
-			/////////////////////////////////////////////这部分很难理解：从dp[0][9]~dp[9][0]检查(这当中其实是一个上三角阵的trick，如果是方阵的话其实是dp[0][9]~dp[9][9]，这样更好理解，就是先找最后一个单词)，若dp[i][j]为true，则保存字符串进mystrings，然后从dp[0][i-1]再找（因为前后字符串不可能重叠，所以最长不可能超过i）
 			for (int k = 0; k <= i; k++)
 			{
-				//cout << "k=" << k << ", i=" << i << ", i-k=" << i - k << endl;
 				if (dp[k][i - k])
 				{
 					mystring.push_back(s.substr(k, i - k + 1));
-					//cout << "k=" << k << ", i=" << i << ", " << mystring.back() << endl;
 					output(k - 1, s);
 					mystring.pop_back();
 				}
 			}
 		}
 	}
-
 	bool isMatch(string str, unordered_set<string> &dict)
 	{
 		unordered_set<string>::const_iterator got = dict.find(str);
@@ -77,13 +95,6 @@ public:
 };
 
 int main(){
-	//unordered_set<string> dict = unordered_set<string>();
-	//dict.insert("cat");
-	//dict.insert("cats");
-	//dict.insert("and");
-	//dict.insert("sand");
-	//dict.insert("dog");
-	//string ss = "catsanddog";
 	//string ss = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
 	//string dictStrs[] = { "a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa" };
 	string ss = "baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
@@ -93,6 +104,6 @@ int main(){
 		dict.insert(dictStrs[i]);
 	}
 	Solution s;
-	s.wordBreak(ss, dict);
+	s.wordBreak2(ss, dict);
 	return 0;
 }

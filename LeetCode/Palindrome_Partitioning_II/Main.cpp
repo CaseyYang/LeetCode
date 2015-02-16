@@ -4,7 +4,7 @@
 #include<algorithm>
 using namespace std;
 
-void OutputD(int *D,int l){
+void OutputD(int *D, int l){
 	for (int i = 0; i < l; ++i){
 		cout << D[i] << " ";
 	}
@@ -23,6 +23,7 @@ void OutputP(bool **P, int l){
 
 class Solution {
 public:
+	//minCut方法链接：http://fisherlei.blogspot.com/2013/03/leetcode-palindrome-partitioning-ii.html
 	int minCut(string s) {
 		int len = s.size();
 		int *D = new int[len + 1];
@@ -31,7 +32,7 @@ public:
 			P[i] = new bool[len];
 		}
 		for (int i = 0; i <= len; i++){
-			D[i] = len - i;
+			D[i] = len - i - 1;
 		}
 		for (int i = 0; i < len; i++){
 			for (int j = 0; j < len; j++){
@@ -48,10 +49,10 @@ public:
 		}
 		OutputD(D, len + 1);
 		cout << endl;
-		OutputP(P, len);
-		return D[0] - 1;
+		//OutputP(P, len);
+		return D[0];
 	}
-
+	//minCut2方法链接：https://oj.leetcode.com/discuss/9476/solution-does-not-need-table-palindrome-right-uses-only-space
 	int minCut2(string s) {
 		int n = s.size();
 		vector<int> cut(n + 1, 0);  // number of cuts for the first k characters

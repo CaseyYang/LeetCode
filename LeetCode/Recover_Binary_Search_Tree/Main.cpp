@@ -12,49 +12,33 @@ class Solution {
 public:
 	TreeNode *wrong1 = NULL;
 	TreeNode *wrong2 = NULL;
-	TreeNode *recursion(TreeNode *root, TreeNode *preNode){
-		if (root->left == NULL&&root->right == NULL){
-			if (preNode != NULL){
-				if (preNode->val > root->val){
-					if (wrong1 == NULL){
-						wrong1 = preNode;
-					}
-					wrong2 = root;
-				}
+	TreeNode *pre = NULL;
+	void recursion(TreeNode *cur){
+		if (cur == NULL) return;
+		recursion(cur->left);
+		if (pre != NULL&&pre->val > cur->val){
+			if (wrong1 == NULL){
+				wrong1 = pre;
 			}
-			return root;
+			wrong2 = cur;
 		}
-		else{
-			TreeNode *curPreNode = preNode;
-			TreeNode *returnNode = root;
-			if (root->left != NULL){
-				curPreNode = recursion(root->left, preNode);
-			}
-			if (curPreNode != NULL&&curPreNode->val > root->val){
-				if (wrong1 == NULL){
-					wrong1 = curPreNode;
-				}
-				wrong2 = root;
-			}
-			if (root->right != NULL){
-				returnNode = recursion(root->right, root);
-			}
-			return returnNode;
-		}
-
+		pre = cur;
+		recursion(cur->right);
 	}
 	void recoverTree(TreeNode *root) {
 		if (root == NULL){
 			return;
 		}
 		else{
-			TreeNode *preNode = NULL;
-			recursion(root, preNode);
-			if (wrong1 != NULL){
-				int tmp = wrong1->val;
-				wrong1->val = wrong2->val;
-				wrong2->val = tmp;
-			}
+			recursion(root);
+			swap(wrong1->val, wrong2->val);
+			//TreeNode *preNode = NULL;
+			//recursion(root, preNode);
+			//if (wrong1 != NULL){
+			//	int tmp = wrong1->val;
+			//	wrong1->val = wrong2->val;
+			//	wrong2->val = tmp;
+			//}
 		}
 	}
 };

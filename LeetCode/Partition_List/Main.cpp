@@ -15,7 +15,6 @@ public:
 		ListNode *l2Cur = NULL;
 		ListNode *cur = head;
 		while (cur != NULL){
-			cout << cur->val << endl;
 			if (cur->val < x){
 				if (l1Head == NULL) {
 					l1Head = cur;
@@ -35,7 +34,6 @@ public:
 					l2Cur->next = cur;
 					l2Cur = l2Cur->next;
 				}
-				cout << l2Cur->val << " " << l2Head->val << endl;
 			}
 			cur = cur->next;
 		}

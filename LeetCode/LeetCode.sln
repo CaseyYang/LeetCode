@@ -298,6 +298,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factorial_Trailing_Zeroes",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "使得子串中0和1数量相等的最长子串", "使得子串中0和1数量相等的最长子串\使得子串中0和1数量相等的最长子串.vcxproj", "{DC0AC1EF-F5E2-4F20-9A5A-717AF625DB88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary_Tree_Right_Side_View", "Binary_Tree_Right_Side_View\Binary_Tree_Right_Side_View.vcxproj", "{CA1EC44C-AC70-485B-9D53-285C0A0D87F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "House_Robber", "House_Robber\House_Robber.vcxproj", "{D1091C2F-772F-4DFA-8558-DF97F650D270}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -884,6 +888,14 @@ Global
 		{DC0AC1EF-F5E2-4F20-9A5A-717AF625DB88}.Debug|Win32.Build.0 = Debug|Win32
 		{DC0AC1EF-F5E2-4F20-9A5A-717AF625DB88}.Release|Win32.ActiveCfg = Release|Win32
 		{DC0AC1EF-F5E2-4F20-9A5A-717AF625DB88}.Release|Win32.Build.0 = Release|Win32
+		{CA1EC44C-AC70-485B-9D53-285C0A0D87F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA1EC44C-AC70-485B-9D53-285C0A0D87F3}.Debug|Win32.Build.0 = Debug|Win32
+		{CA1EC44C-AC70-485B-9D53-285C0A0D87F3}.Release|Win32.ActiveCfg = Release|Win32
+		{CA1EC44C-AC70-485B-9D53-285C0A0D87F3}.Release|Win32.Build.0 = Release|Win32
+		{D1091C2F-772F-4DFA-8558-DF97F650D270}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1091C2F-772F-4DFA-8558-DF97F650D270}.Debug|Win32.Build.0 = Debug|Win32
+		{D1091C2F-772F-4DFA-8558-DF97F650D270}.Release|Win32.ActiveCfg = Release|Win32
+		{D1091C2F-772F-4DFA-8558-DF97F650D270}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

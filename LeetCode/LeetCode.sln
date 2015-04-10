@@ -310,6 +310,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rotate_Array", "Rotate_Arra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Best_Time_to_Buy_and_Sell_Stock_IV", "Best_Time_to_Buy_and_Sell_Stock_IV\Best_Time_to_Buy_and_Sell_Stock_IV.vcxproj", "{E6D09529-3260-43DB-AB0F-686576763D50}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number_of_Islands", "Number_of_Islands\Number_of_Islands.vcxproj", "{B493BDED-7911-4EFB-AF27-E727EF06B79B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -920,6 +922,10 @@ Global
 		{E6D09529-3260-43DB-AB0F-686576763D50}.Debug|Win32.Build.0 = Debug|Win32
 		{E6D09529-3260-43DB-AB0F-686576763D50}.Release|Win32.ActiveCfg = Release|Win32
 		{E6D09529-3260-43DB-AB0F-686576763D50}.Release|Win32.Build.0 = Release|Win32
+		{B493BDED-7911-4EFB-AF27-E727EF06B79B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B493BDED-7911-4EFB-AF27-E727EF06B79B}.Debug|Win32.Build.0 = Debug|Win32
+		{B493BDED-7911-4EFB-AF27-E727EF06B79B}.Release|Win32.ActiveCfg = Release|Win32
+		{B493BDED-7911-4EFB-AF27-E727EF06B79B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

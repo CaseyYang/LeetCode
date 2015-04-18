@@ -312,6 +312,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Best_Time_to_Buy_and_Sell_S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number_of_Islands", "Number_of_Islands\Number_of_Islands.vcxproj", "{B493BDED-7911-4EFB-AF27-E727EF06B79B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bitwise_AND_of_Numbers_Range", "Bitwise_AND_of_Numbers_Range\Bitwise_AND_of_Numbers_Range.vcxproj", "{483BE19C-F7D1-462F-BC6F-554C422D95A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -926,6 +928,10 @@ Global
 		{B493BDED-7911-4EFB-AF27-E727EF06B79B}.Debug|Win32.Build.0 = Debug|Win32
 		{B493BDED-7911-4EFB-AF27-E727EF06B79B}.Release|Win32.ActiveCfg = Release|Win32
 		{B493BDED-7911-4EFB-AF27-E727EF06B79B}.Release|Win32.Build.0 = Release|Win32
+		{483BE19C-F7D1-462F-BC6F-554C422D95A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{483BE19C-F7D1-462F-BC6F-554C422D95A9}.Debug|Win32.Build.0 = Debug|Win32
+		{483BE19C-F7D1-462F-BC6F-554C422D95A9}.Release|Win32.ActiveCfg = Release|Win32
+		{483BE19C-F7D1-462F-BC6F-554C422D95A9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

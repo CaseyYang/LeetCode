@@ -320,6 +320,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove_Linked_List_Elements
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count_Primes", "Count_Primes\Count_Primes.vcxproj", "{8480B2E4-6113-4DF0-8831-BA95681F878F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Isomorphic_Strings", "Isomorphic_Strings\Isomorphic_Strings.vcxproj", "{6763E6D2-BCAB-4194-A441-D58B297644DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -950,6 +952,10 @@ Global
 		{8480B2E4-6113-4DF0-8831-BA95681F878F}.Debug|Win32.Build.0 = Debug|Win32
 		{8480B2E4-6113-4DF0-8831-BA95681F878F}.Release|Win32.ActiveCfg = Release|Win32
 		{8480B2E4-6113-4DF0-8831-BA95681F878F}.Release|Win32.Build.0 = Release|Win32
+		{6763E6D2-BCAB-4194-A441-D58B297644DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6763E6D2-BCAB-4194-A441-D58B297644DF}.Debug|Win32.Build.0 = Debug|Win32
+		{6763E6D2-BCAB-4194-A441-D58B297644DF}.Release|Win32.ActiveCfg = Release|Win32
+		{6763E6D2-BCAB-4194-A441-D58B297644DF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

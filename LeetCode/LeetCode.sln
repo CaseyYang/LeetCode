@@ -322,6 +322,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count_Primes", "Count_Prime
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Isomorphic_Strings", "Isomorphic_Strings\Isomorphic_Strings.vcxproj", "{6763E6D2-BCAB-4194-A441-D58B297644DF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse_Linked_List", "Reverse_Linked_List\Reverse_Linked_List.vcxproj", "{8CEBFC28-5FA6-4920-AE28-741001EC575E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum_Size_Subarray_Sum", "Minimum_Size_Subarray_Sum\Minimum_Size_Subarray_Sum.vcxproj", "{8F684D3B-BB33-4D07-96F6-5A18FE08AB4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -956,6 +960,14 @@ Global
 		{6763E6D2-BCAB-4194-A441-D58B297644DF}.Debug|Win32.Build.0 = Debug|Win32
 		{6763E6D2-BCAB-4194-A441-D58B297644DF}.Release|Win32.ActiveCfg = Release|Win32
 		{6763E6D2-BCAB-4194-A441-D58B297644DF}.Release|Win32.Build.0 = Release|Win32
+		{8CEBFC28-5FA6-4920-AE28-741001EC575E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8CEBFC28-5FA6-4920-AE28-741001EC575E}.Debug|Win32.Build.0 = Debug|Win32
+		{8CEBFC28-5FA6-4920-AE28-741001EC575E}.Release|Win32.ActiveCfg = Release|Win32
+		{8CEBFC28-5FA6-4920-AE28-741001EC575E}.Release|Win32.Build.0 = Release|Win32
+		{8F684D3B-BB33-4D07-96F6-5A18FE08AB4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F684D3B-BB33-4D07-96F6-5A18FE08AB4F}.Debug|Win32.Build.0 = Debug|Win32
+		{8F684D3B-BB33-4D07-96F6-5A18FE08AB4F}.Release|Win32.ActiveCfg = Release|Win32
+		{8F684D3B-BB33-4D07-96F6-5A18FE08AB4F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

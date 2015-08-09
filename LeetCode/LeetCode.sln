@@ -334,6 +334,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Course_Schedule_II", "Cours
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shortest_Palindrome", "Shortest_Palindrome\Shortest_Palindrome.vcxproj", "{B53AC90E-AC56-4870-A7D4-D9014D75D43F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kth_Largest_Element_in_an_Array", "Kth_Largest_Element_in_an_Array\Kth_Largest_Element_in_an_Array.vcxproj", "{91CFB639-0934-4F07-8D1B-7E1E51F4AFE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -2294,6 +2296,16 @@ Global
 		{B53AC90E-AC56-4870-A7D4-D9014D75D43F}.Release|Win32.ActiveCfg = Release|Win32
 		{B53AC90E-AC56-4870-A7D4-D9014D75D43F}.Release|Win32.Build.0 = Release|Win32
 		{B53AC90E-AC56-4870-A7D4-D9014D75D43F}.Release|x64.ActiveCfg = Release|Win32
+		{91CFB639-0934-4F07-8D1B-7E1E51F4AFE2}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{91CFB639-0934-4F07-8D1B-7E1E51F4AFE2}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{91CFB639-0934-4F07-8D1B-7E1E51F4AFE2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{91CFB639-0934-4F07-8D1B-7E1E51F4AFE2}.Debug|Win32.Build.0 = Debug|Win32
+		{91CFB639-0934-4F07-8D1B-7E1E51F4AFE2}.Debug|x64.ActiveCfg = Debug|Win32
+		{91CFB639-0934-4F07-8D1B-7E1E51F4AFE2}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{91CFB639-0934-4F07-8D1B-7E1E51F4AFE2}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{91CFB639-0934-4F07-8D1B-7E1E51F4AFE2}.Release|Win32.ActiveCfg = Release|Win32
+		{91CFB639-0934-4F07-8D1B-7E1E51F4AFE2}.Release|Win32.Build.0 = Release|Win32
+		{91CFB639-0934-4F07-8D1B-7E1E51F4AFE2}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

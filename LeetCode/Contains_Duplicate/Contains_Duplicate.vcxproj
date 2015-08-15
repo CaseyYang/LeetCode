@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{42E6880E-41BE-4890-BC86-1F36EB70760D}</ProjectGuid>
+    <ProjectGuid>{9639772E-44F7-4783-AE19-53BA426371BA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Combination_Sum_III</RootNamespace>
+    <RootNamespace>Contains_Duplicate</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

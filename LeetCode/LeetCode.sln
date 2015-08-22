@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find_Minimum_in_Rotated_Sorted_Array", "Find_Minimum_in_Rotated_Sorted_Array\Find_Minimum_in_Rotated_Sorted_Array.vcxproj", "{6BD16B9F-3AA7-4A70-ADD3-A832F05F51D2}"
 EndProject
@@ -353,6 +353,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lowest_Common_Ancestor_of_a_Binary_Search_Tree", "Lowest_Common_Ancestor_of_a_Binary_Search_Tree\Lowest_Common_Ancestor_of_a_Binary_Search_Tree.vcxproj", "{D0289E11-B4A6-4B98-89DC-5A2E473CDB46}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lowest_Common_Ancestor_of_a_Binary_Tree", "Lowest_Common_Ancestor_of_a_Binary_Tree\Lowest_Common_Ancestor_of_a_Binary_Tree.vcxproj", "{F292B469-2AD2-4A3B-B892-4D83989F1811}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximal_Square", "Maximal_Square\Maximal_Square.vcxproj", "{0CC4B844-16F0-4B50-A047-F32B128519C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -2419,6 +2421,16 @@ Global
 		{F292B469-2AD2-4A3B-B892-4D83989F1811}.Release|Win32.ActiveCfg = Release|Win32
 		{F292B469-2AD2-4A3B-B892-4D83989F1811}.Release|Win32.Build.0 = Release|Win32
 		{F292B469-2AD2-4A3B-B892-4D83989F1811}.Release|x64.ActiveCfg = Release|Win32
+		{0CC4B844-16F0-4B50-A047-F32B128519C1}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{0CC4B844-16F0-4B50-A047-F32B128519C1}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{0CC4B844-16F0-4B50-A047-F32B128519C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CC4B844-16F0-4B50-A047-F32B128519C1}.Debug|Win32.Build.0 = Debug|Win32
+		{0CC4B844-16F0-4B50-A047-F32B128519C1}.Debug|x64.ActiveCfg = Debug|Win32
+		{0CC4B844-16F0-4B50-A047-F32B128519C1}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{0CC4B844-16F0-4B50-A047-F32B128519C1}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{0CC4B844-16F0-4B50-A047-F32B128519C1}.Release|Win32.ActiveCfg = Release|Win32
+		{0CC4B844-16F0-4B50-A047-F32B128519C1}.Release|Win32.Build.0 = Release|Win32
+		{0CC4B844-16F0-4B50-A047-F32B128519C1}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

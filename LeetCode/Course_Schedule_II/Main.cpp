@@ -54,5 +54,5 @@ int main(){
 	v1.push_back(p1);
 	v1.push_back(p2);
 	Solution s;
-	s.canFinish(4, v1);
+	s.findOrder(4, v1);
 }

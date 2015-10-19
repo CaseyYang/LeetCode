@@ -10,8 +10,16 @@ struct TreeNode {
 
 vector<TreeNode*> func(TreeNode* root,int n) {
 	TreeNode* cur = root;
-	TreeNode* smaller = NULL, *bigger = NULL;
-	while(cur!=NULL&&)
+	TreeNode* parent = root;
+	while (cur != NULL) {
+		if (cur->value > n) {
+			parent
+			cur = cur->left;
+		}
+		else {
+			cur = cur->right;
+		}
+	}
 }
 
 int main() {

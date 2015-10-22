@@ -430,6 +430,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nim_Game", "Nim_Game\Nim_Ga
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "黑白棋翻转", "黑白棋翻转\黑白棋翻转.vcxproj", "{B196AB65-1AA9-4CFA-A32F-631D6A59FA70}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Peeking_Iterator", "Peeking_Iterator\Peeking_Iterator.vcxproj", "{B54278C7-794E-4771-8B0D-779210DCFE1E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find_Median_from_Data_Stream", "Find_Median_from_Data_Stream\Find_Median_from_Data_Stream.vcxproj", "{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word_Pattern", "Word_Pattern\Word_Pattern.vcxproj", "{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -2893,6 +2899,42 @@ Global
 		{B196AB65-1AA9-4CFA-A32F-631D6A59FA70}.Release|Win32.Build.0 = Release|Win32
 		{B196AB65-1AA9-4CFA-A32F-631D6A59FA70}.Release|x64.ActiveCfg = Release|x64
 		{B196AB65-1AA9-4CFA-A32F-631D6A59FA70}.Release|x64.Build.0 = Release|x64
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Debug|Win32.Build.0 = Debug|Win32
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Debug|x64.ActiveCfg = Debug|x64
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Debug|x64.Build.0 = Debug|x64
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Release|Win32.ActiveCfg = Release|Win32
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Release|Win32.Build.0 = Release|Win32
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Release|x64.ActiveCfg = Release|x64
+		{B54278C7-794E-4771-8B0D-779210DCFE1E}.Release|x64.Build.0 = Release|x64
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Debug|Win32.Build.0 = Debug|Win32
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Debug|x64.ActiveCfg = Debug|x64
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Debug|x64.Build.0 = Debug|x64
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Release|Win32.ActiveCfg = Release|Win32
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Release|Win32.Build.0 = Release|Win32
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Release|x64.ActiveCfg = Release|x64
+		{D4185F85-BCDA-42D2-ABE4-5631E414A4C8}.Release|x64.Build.0 = Release|x64
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Debug|Win32.Build.0 = Debug|Win32
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Debug|x64.ActiveCfg = Debug|x64
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Debug|x64.Build.0 = Debug|x64
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Release|Win32.ActiveCfg = Release|Win32
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Release|Win32.Build.0 = Release|Win32
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Release|x64.ActiveCfg = Release|x64
+		{E68D198B-09F5-4BE6-8B1B-5AD50287F5FE}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

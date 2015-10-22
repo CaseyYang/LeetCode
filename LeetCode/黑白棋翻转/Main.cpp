@@ -15,22 +15,27 @@ int func(vector<vector<int>> &graph, int xIndex, int yIndex) {
 	int length = graph[0].size();
 	int count = 0;
 	while (!check(graph)) {
+		set<Node> s = set<Node>();
 		queue<Node> q;
 		q.push(make_pair(xIndex, yIndex));
 		while (!q.empty()) {
 			Node node = q.front();
 			q.pop();
-			if (node.first - 1 >= 0 && graph[node.first - 1][node.second] == graph[node.first][node.second]) {
+			if (node.first - 1 >= 0 && graph[node.first - 1][node.second] == graph[node.first][node.second] && s.find(make_pair(node.first - 1, node.second)) == s.end()) {
 				q.push(make_pair(node.first - 1, node.second));
+				s.insert(make_pair(node.first - 1, node.second));
 			}
-			if (node.first + 1 < length && graph[node.first + 1][node.second] == graph[node.first][node.second]) {
+			if (node.first + 1 < length && graph[node.first + 1][node.second] == graph[node.first][node.second] && s.find(make_pair(node.first + 1, node.second)) == s.end()) {
 				q.push(make_pair(node.first + 1, node.second));
+				s.insert(make_pair(node.first + 1, node.second));
 			}
-			if (node.second - 1 >= 0 && graph[node.first][node.second - 1] == graph[node.first][node.second]) {
+			if (node.second - 1 >= 0 && graph[node.first][node.second - 1] == graph[node.first][node.second] && s.find(make_pair(node.first, node.second - 1)) == s.end()) {
 				q.push(make_pair(node.first, node.second - 1));
+				s.insert(make_pair(node.first, node.second - 1));
 			}
-			if (node.second + 1 >= 0 && graph[node.first][node.second + 1] == graph[node.first][node.second]) {
+			if (node.second + 1 >= 0 && graph[node.first][node.second + 1] == graph[node.first][node.second] && s.find(make_pair(node.first, node.second + 1)) == s.end()) {
 				q.push(make_pair(node.first, node.second + 1));
+				s.insert(make_pair(node.first, node.second + 1));
 			}
 			graph[node.first][node.second] = 1 - graph[node.first][node.second];
 		}

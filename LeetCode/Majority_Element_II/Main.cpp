@@ -58,3 +58,55 @@ public:
 		return result;
 	}
 };
+
+//通解：解决数组中个数找出超过n/k的元素可以使用Boyer-Moore算法
+vector<int> majorityElement(vector<int>& nums,int k) {
+	vector<int> values(k);
+	vector<int> counts(k, 0);
+	for (const int num : nums) {
+		int index = 0;
+		// 1. locate equal number.
+		for (index = 0; index < k; ++index) {
+			if (values[index] == num) {
+				++counts[index];
+				break;
+			}
+		}
+		if (index != k) {
+			continue;
+		}
+		// 2. check empty space.
+		for (index = 0; index < k; ++index) {
+			if (counts[index] == 0) {
+				values[index] = num;
+				counts[index] = 1;
+				break;
+			}
+		}
+		if (index != k) {
+			continue;
+		}
+		// 3. decrease all counters.
+		for (index = 0; index < k; ++index) {
+			// promise: values[i] is valid and counts[i] > 0.
+			--counts[index];
+		}
+	}
+	// verify candidates.
+	vector<int> ret;
+	for (int index = 0; index < k; ++index) {
+		if (counts[index] == 0) {
+			continue;
+		}
+		counts[index] = 0;
+		for (const int num : nums) {
+			if (values[index] == num) {
+				++counts[index];
+			}
+		}
+		if (counts[index] > nums.size() / (k + 1)) {
+			ret.push_back(values[index]);
+		}
+	}
+	return ret;
+}
